@@ -47,16 +47,6 @@ var Sources = []Source{
 		SoldOutText: `<input class="linkBtn js-pressTwice" type="submit" value="在庫切れ" title="在庫切れ"`,
 	},
 	{
-		Name:        "nojima - Nintendo Switch Joy-Con (L) / (R) グレー",
-		URL:         "https://online.nojima.co.jp/Nintendo-HAC-S-KAAAA-%E3%80%90NSW%E3%80%91-%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E6%9C%AC%E4%BD%93-Joy-Con%28L%29-%28R%29-%E3%82%B0%E3%83%AC%E3%83%BC/4902370535709/1/cd/",
-		SoldOutText: `<span>完売御礼</span>`,
-	},
-	{
-		Name:        "nojima - Nintendo Switch Joy-Con (L) ネオンブルー/ (R) ネオンレッド",
-		URL:         "https://online.nojima.co.jp/Nintendo-HAC-S-KABAA-%E3%80%90NSW%E3%80%91-%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E6%9C%AC%E4%BD%93-Joy-Con%28L%29-%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC-%28R%29-%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%AC%E3%83%83%E3%83%89/4902370535716/1/cd/",
-		SoldOutText: `<span>完売御礼</span>`,
-	},
-	{
 		Name:        "toysrus - Nintendo Switch Joy-Con (L) / (R) グレー",
 		URL:         "https://www.toysrus.co.jp/s/dsg-572182200",
 		SoldOutText: `<span id="isStock_c" >在庫なし/入荷予定あり</span>`,
@@ -65,20 +55,5 @@ var Sources = []Source{
 		Name:        "toysrus - Nintendo Switch Joy-Con (L) ネオンブルー/ (R) ネオンレッド",
 		URL:         "https://www.toysrus.co.jp/s/dsg-572186500",
 		SoldOutText: `<span id="isStock_c" >在庫なし/入荷予定あり</span>`,
-	},
-	{
-		Name:        "tsutaya - Nintendo Switch Joy-Con (L) / (R) グレー",
-		URL:         "http://shop.tsutaya.co.jp/Nintendo-Switch-Joy-Con-L-R-%E3%82%B0%E3%83%AC%E3%83%BC-HACSKAAAA/product-game-4902370535709/",
-		SoldOutText: `<img src="/library/img/base/ic/btn_nostockL.png" alt="在庫なし" />`,
-	},
-	{
-		Name:        "tsutaya - Nintendo Switch Joy-Con (L) ネオンブルー/ (R) ネオンレッド",
-		URL:         "http://shop.tsutaya.co.jp/Nintendo-Switch-Joy-Con-L-%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC-R-%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%AC%E3%83%83%E3%83%89-HACSKABAA/product-game-4902370535716/",
-		SoldOutText: `<img src="/library/img/base/ic/btn_nostockL.png" alt="在庫なし" />`,
-	},
-	{
-		Name:        "sofmap - Nintendo Switch",
-		URL:         "http://www.sofmap.com/topics/exec/?id=5500",
-		SoldOutText: `<IMG src="/images/system_icon/zaiko06.gif" alt="在庫切れ" border="0">`,
 	},
 }
