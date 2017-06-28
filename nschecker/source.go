@@ -14,27 +14,17 @@ var Sources = []Source{
 	{
 		Name:          "Amazon グレー",
 		URL:           "https://www.amazon.co.jp/%E4%BB%BB%E5%A4%A9%E5%A0%82-Nintendo-Switch-Joy-Con-%E3%82%B0%E3%83%AC%E3%83%BC/dp/B01N5QLLT3/",
-		AvailableText: `</a><span class='a-color-price'>￥ 32,378</span>より</span>`,
+		AvailableText: `<span class='a-color-price'>￥ 32,378</span>より</span>`,
 	},
 	{
 		Name:          "Amazon ネオンブルー/ (R) ネオンレッド",
 		URL:           "https://www.amazon.co.jp/Nintendo-Switch-Joy-Con-%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%96%E3%83%AB%E3%83%BC-%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%AC%E3%83%83%E3%83%89/dp/B01NCXFWIZ/",
-		AvailableText: `</a><span class='a-color-price'>￥ 32,378</span>より</span>`,
+		AvailableText: `<span class='a-color-price'>￥ 32,378</span>より</span>`,
 	},
 	{
 		Name:        "My Nintendo Store",
 		URL:         "https://store.nintendo.co.jp/customize.html",
 		SoldOutText: `<button class="btn btn__primary_soldout to_cart" type="submit"><span>SOLD OUT</span></button>`,
-	},
-	{
-		Name:        "Yodobashi - Nintendo Switch Joy-Con(L)/(R)グレー [Nintendo Switch本体]",
-		URL:         "http://www.yodobashi.com/product/100000001003431565/",
-		SoldOutText: `<div class="salesInfo"><p>予定数の販売を終了しました</p></div>`,
-	},
-	{
-		Name:        "Yodobashi - Nintendo Switch Joy-Con(L)ネオンブルー/(R)ネオンレッド [Nintendo Switch本体]",
-		URL:         "http://www.yodobashi.com/product/100000001003431566/",
-		SoldOutText: `<div class="salesInfo"><p>予定数の販売を終了しました</p></div>`,
 	},
 	{
 		Name:        "omni7(7net) - Nintendo Switch Joy-Con (L) / (R) グレー",
