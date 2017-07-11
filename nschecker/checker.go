@@ -45,8 +45,8 @@ func Check(s Source, hc *http.Client) (State, error) {
 	if hc == nil {
 		hc = http.DefaultClient
 	}
-
-	resp, err := hc.Get(s.URL)
+	req, _ := http.NewRequest("GET", s.URL, nil)
+	resp, err := hc.Do(req)
 	if err != nil {
 		return ERROR, err
 	}
