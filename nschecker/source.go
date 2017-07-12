@@ -27,16 +27,6 @@ var Sources = []Source{
 		SoldOutText: `<button class="btn btn__primary_soldout to_cart" type="submit"><span>SOLD OUT</span></button>`,
 	},
 	{
-		Name:        "omni7(7net) - Nintendo Switch Joy-Con (L) / (R) グレー",
-		URL:         "http://7net.omni7.jp/detail/2110595636",
-		SoldOutText: `<input class="linkBtn js-pressTwice" type="submit" value="在庫切れ" title="在庫切れ"`,
-	},
-	{
-		Name:        "omni7(7net) - Nintendo Switch Joy-Con (L) ネオンブルー/ (R) ネオンレッド",
-		URL:         "http://7net.omni7.jp/detail/2110595637",
-		SoldOutText: `<input class="linkBtn js-pressTwice" type="submit" value="在庫切れ" title="在庫切れ"`,
-	},
-	{
 		Name:        "omni7(iyec) - Nintendo Switch Joy-Con (L) / (R) グレー",
 		URL:         "http://iyec.omni7.jp/detail/4902370535709",
 		SoldOutText: `<input class="linkBtn js-pressTwice" type="submit" value="在庫切れ" title="在庫切れ"`,
